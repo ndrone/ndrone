@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Nicholas</h1>
 <h3 align="center">Lutheran, Husband, Father, American, Software Geek</h3>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ndrone&theme=solarized-dark&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ndrone&theme=solarized-dark&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=ndrone&theme=solarized-dark&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
