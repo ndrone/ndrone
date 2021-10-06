@@ -1,4 +1,4 @@
-##<div align="center">Hi 👋, I'm Nicholas</div>
+##Hi 👋, I'm Nicholas
 
 ### Lutheran, Husband, Father, American, Software Geek
 
