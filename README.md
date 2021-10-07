@@ -12,9 +12,7 @@
 
 <h2 align="center">Blog posts</h2>
 <!-- BLOG-POST-LIST:START -->
-
 - [Repositories are not just for Databases](https://dev.to/ndrone/repositories-are-not-just-for-databases-4a85)
-
 <!-- BLOG-POST-LIST:END -->
 
 <h2 align="center">My GitHub Stats</h2>
