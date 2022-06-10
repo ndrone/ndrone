@@ -1,0 +1,10 @@
+{
+  "name": "ndrone",
+  "version": "0.1.0",
+  "description": "Personal Website",
+  "main": "index.html",
+  "repository": "https://github.com/ndrone/ndrone.git",
+  "author": "Nicholas Drone <ndrone@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
