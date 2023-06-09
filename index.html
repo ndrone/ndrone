@@ -20,7 +20,14 @@
 
     <title>Nicholas Drone</title>
 
-    <style>
+    <style media="screen">
+        @font-face {
+          font-family: 'JetBrains Mono';
+          src: url('./fonts/JetBrainsMono-Regular.woff2') format('woff2');
+          font-weight: 400;
+          font-style: normal;
+        }
+
         body {
             background-color: #000;
             color: white;
@@ -40,9 +47,25 @@
             justify-content: center;
             min-width: 700px;
         }
+
+        .xterm *::-webkit-scrollbar {
+          display: none;
+          position: relative;
+        }
+
+        #term {
+          padding: 4px;
+        }
+
+        .xterm * {
+          scrollbar-width: none;
+        }
     </style>
 </head>
 <body>
+    <noscript>
+        You need to enable JavaScript to run this app.
+    </noscript>
     <main class="content">
         <div class="terminal-container">
             <div id="term"></div>
