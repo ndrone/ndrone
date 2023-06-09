@@ -6,5 +6,8 @@
   "repository": "https://github.com/ndrone/ndrone.git",
   "author": "Nicholas Drone <ndrone@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "xterm": "^5.2.0"
+  }
 }
