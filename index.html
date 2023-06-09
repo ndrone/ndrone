@@ -28,25 +28,50 @@
           font-style: normal;
         }
 
-        body {
-            background-color: #000;
-            color: white;
-            height: 100%;
-            margin: 0;
-            overflow: auto;
-            padding: 0;
+        :root {
+          --color-highlight: #00ff66;
         }
 
-        .content .terminal-container{
-            -webkit-box-shadow: 5px 5px 5px #cf442b;
-            box-shadow: 5px 5px 5px #cf442b;
-            border: 2px solid var(--color-highlight);
-            overflow: hidden;
-            padding: 1px;
-            flex-shrink: 0;
-            box-sizing: border-box;
-            max-width: 100%;
-            position: relative;
+        * {
+          box-sizing: border-box;
+        }
+
+        body {
+          background-color: #282828;
+          color: white;
+          margin: 0;
+          overflow-x: auto;
+          overflow-y: hidden;
+          padding: 0;
+        }
+
+        .content {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: center;
+          justify-content: center;
+          padding: 30px;
+          min-width: 700px;
+        }
+
+        @media (max-width: 768px) {
+          .content {
+            justify-content: flex-start;
+          }
+        }
+
+        .content .terminal-container {
+          -webkit-box-shadow: 5px 5px 5px #00ff66;
+          box-shadow: 5px 5px 5px #00ff66;
+          border: 2px solid var(--color-highlight);
+          overflow: hidden;
+          padding: 1px;
+          flex-shrink: 0;
+          box-sizing: border-box;
+          max-width: 100%;
+          position: relative;
         }
 
         .xterm *::-webkit-scrollbar {
