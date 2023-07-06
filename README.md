@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Nicholas</h1>
-<h3 align="center">Lutheran, Husband, Father, American, Software Geek</h3>
+<h3 align="center">Husband, Father</h3>
 
 <h2 align="center">Blog posts</h2>
 <!-- BLOG-POST-LIST:START -->
