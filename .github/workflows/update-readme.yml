@@ -1,0 +1,41 @@
+---
+name: Updates README
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  update-readme:
+    name: Update this repo's README
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-go@v4
+        with:
+          go-version: '1.21.0'
+      - name: Prepare
+        run: |
+          export PATH=$PATH:$(go env GOPATH)/bin
+          mkdir .tmp
+      - name: Collect articles
+        run: |
+          go install github.com/huantt/article-listing@v.1.2.0
+          article-listing update-articles --username=ndrone --template-file='templates/blog.md.tpl' --out-file='.tmp/blog.md.tpl' --limit=5
+      - name: Collect weathers
+        run: |
+          go install github.com/huantt/weather-forecast@v1.0.5
+          weather-forecast update-weather --days=3 --city=HaNoi  --weather-api-key="${{ secrets.WEATHER_API_KEY }}" --template-file='templates/weathers.md.tpl' --out-file='.tmp/weathers.md.tpl'
+      - name: Merge templates
+        run: |
+          go install github.com/huantt/merge-templates@v1.0.0
+          merge-templates README.md 'templates/README.md.tpl' '.tmp/blog.md.tpl' '.tmp/weathers.md.tpl'
+      - name: Commit
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Updates README"
+          git push origin main
