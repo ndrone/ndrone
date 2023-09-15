@@ -10,4 +10,4 @@
 
 ## Today's Weather
 
-{{ template "weathers.md.tpl" }}
+{{ template "weather.md.tpl" }}
