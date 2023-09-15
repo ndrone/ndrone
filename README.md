@@ -2,11 +2,11 @@
 
 ### Husband | Father
 
-### Contact [ndrone@gmail.com](mailto:ndrone@gmail.com)
+### Contact [Nicholas Drone](mailto:ndrone@gmail.com)
 
 ## Blog posts
 
-
+<!-- markdownlint-disable -->
 <table>
         <tr>
             <td width="300px">
@@ -35,12 +35,11 @@
 *Updated at: 2023-09-15T20:27:05Z - by **[huantt/article-listing](https://github.com/huantt/article-listing)***
 
 </div>
-
+<!-- markdownlint-enable -->
 
 ## Today's Weather
 
-
-
+<!-- markdownlint-disable -->
 `Cincinnati, United States of America - 14/09/2023`
 
 <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png"/>
@@ -77,4 +76,4 @@ Sunny
 *Updated at: 2023-09-15T20:27:07Z - by **[huantt/weather-forecast](https://github.com/huantt/weather-forecast)***
 
 </div>
-
+<!-- markdownlint-enable -->
