@@ -6,7 +6,8 @@
 
 ## Blog posts
 
-<!-- markdownlint-disable -->
+
+
 <table>
         <tr>
             <td width="300px">
@@ -32,14 +33,15 @@
 
 <div align="right">
 
-*Updated at: 2023-09-15T20:27:05Z - by **[huantt/article-listing](https://github.com/huantt/article-listing)***
+*Updated at: 2023-09-15T21:12:56Z - by **[huantt/article-listing](https://github.com/huantt/article-listing)***
 
 </div>
-<!-- markdownlint-enable -->
+
 
 ## Today's Weather
 
-<!-- markdownlint-disable -->
+
+
 `Cincinnati, United States of America - 14/09/2023`
 
 <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png"/>
@@ -62,18 +64,19 @@ Sunny
     </tr>
     <tr>
         <th>Temperature</th>
-        <td>17.3 °C</td><td>16.2 °C</td><td>15.3 °C</td><td>14.5 °C</td><td>13.8 °C</td><td>12.7 °C</td><td>12 °C</td><td>11.3 °C</td><td>11.3 °C</td><td>13.6 °C</td><td>17 °C</td><td>21.3 °C</td><td>22.1 °C</td><td>23.6 °C</td><td>24.9 °C</td><td>25.6 °C</td><td>24.4 °C</td><td>25.7 °C</td><td>25.3 °C</td><td>25.4 °C</td><td>20.9 °C</td><td>19.8 °C</td><td>18.8 °C</td><td>17.8 °C</td>
+        <td>17.3 °C</td><td>16.2 °C</td><td>15.3 °C</td><td>14.5 °C</td><td>13.8 °C</td><td>12.7 °C</td><td>12 °C</td><td>11.3 °C</td><td>11.3 °C</td><td>13.6 °C</td><td>17 °C</td><td>21.3 °C</td><td>22.1 °C</td><td>23.6 °C</td><td>24.9 °C</td><td>25.6 °C</td><td>25.9 °C</td><td>24.4 °C</td><td>25.3 °C</td><td>25.4 °C</td><td>20.9 °C</td><td>19.8 °C</td><td>18.8 °C</td><td>17.8 °C</td>
     </tr>
     <tr>
         <th>Wind</th>
-        <td>7.9 kph</td><td>6.8 kph</td><td>6.5 kph</td><td>6.5 kph</td><td>5.8 kph</td><td>6.8 kph</td><td>6.5 kph</td><td>5.8 kph</td><td>5.8 kph</td><td>6.8 kph</td><td>7.6 kph</td><td>7.6 kph</td><td>7.6 kph</td><td>7.9 kph</td><td>8.6 kph</td><td>9 kph</td><td>3.6 kph</td><td>10.1 kph</td><td>10.1 kph</td><td>8.6 kph</td><td>9 kph</td><td>9 kph</td><td>8.6 kph</td><td>8.3 kph</td>
+        <td>7.9 kph</td><td>6.8 kph</td><td>6.5 kph</td><td>6.5 kph</td><td>5.8 kph</td><td>6.8 kph</td><td>6.5 kph</td><td>5.8 kph</td><td>5.8 kph</td><td>6.8 kph</td><td>7.6 kph</td><td>7.6 kph</td><td>7.6 kph</td><td>7.9 kph</td><td>8.6 kph</td><td>9 kph</td><td>9.7 kph</td><td>3.6 kph</td><td>10.1 kph</td><td>8.6 kph</td><td>9 kph</td><td>9 kph</td><td>8.6 kph</td><td>8.3 kph</td>
     </tr>
 </table>
 
 
 <div align="right">
 
-*Updated at: 2023-09-15T20:27:07Z - by **[huantt/weather-forecast](https://github.com/huantt/weather-forecast)***
+*Updated at: 2023-09-15T21:12:58Z - by **[huantt/weather-forecast](https://github.com/huantt/weather-forecast)***
 
 </div>
-<!-- markdownlint-enable -->
+
+
