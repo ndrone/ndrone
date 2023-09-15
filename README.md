@@ -37,9 +37,7 @@
 </div>
 <!-- markdownlint-enable -->
 
-
 ## Today's Weather
-
 
 <!-- markdownlint-disable -->
 `Cincinnati, United States of America - 14/09/2023`
