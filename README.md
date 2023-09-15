@@ -2,7 +2,7 @@
 
 ### Husband | Father
 
-### Contact [ndrone@gmail.com](mailto:ndrone@gmail.com)
+### Contact [Nicholas Drone](mailto:ndrone@gmail.com)
 
 ## Blog posts
 
