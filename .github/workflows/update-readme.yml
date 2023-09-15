@@ -23,7 +23,7 @@ jobs:
       - uses: huantt/article-listing@v1.2.0
         with:
           username: ndrone
-          template-file: "blog.md.tpl"
+          template-file: "templates/blog.md.tpl"
           out-file: ".tmp/blog.md.tpl"
           limit: 5
       - uses: huantt/weather-forecast@v1.0.5
@@ -31,7 +31,7 @@ jobs:
           city: Cincinnati
           days: 7
           weather-api-key: ${{ secrets.WEATHER_API_KEY }}
-          template-file: 'weather.md.template'
+          template-file: 'templates/weather.md.tpl'
           out-file: '.tmp/weather.md'
       - name: Merge templates
         run: |
