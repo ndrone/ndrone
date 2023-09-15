@@ -24,7 +24,7 @@ jobs:
         with:
           username: ndrone
           template-file: "templates/blog.md.tpl"
-          out-file: ".tmp/blog.md.tpl"
+          out-file: ".tmp/blog.md"
           limit: 5
       - uses: huantt/weather-forecast@v1.0.5
         with:
@@ -36,7 +36,7 @@ jobs:
       - name: Merge templates
         run: |
           go install github.com/huantt/merge-templates@v1.0.0
-          merge-templates README.md 'templates/README.md.tpl' '.tmp/blog.md.tpl' '.tmp/weather.md.tpl'
+          merge-templates README.md 'templates/README.md.tpl' '.tmp/blog.md' '.tmp/weather.md'
       - run: rm -rf .tmp
       - uses: peter-evans/create-pull-request@v5
         with:
