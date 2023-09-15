@@ -1,0 +1,37 @@
+---
+name: Lint Check
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  changed-files:
+    runs-on: ubuntu-latest
+    name: YAML and Markdown files that have changed
+    steps:
+      - uses: actions/checkout@v4
+      - name: List all YAML and Markdown file changes
+        uses: tj-actions/changed-files@v39
+        id: changed-files-yaml
+        with:
+          files_yaml: |
+            doc:
+              - '**/*.md'
+              - README.md
+            markup:
+              - '**/*.yml'
+              - '**/*.yaml'
+      - name: Markdown Lint Check
+        if: ${{ steps.changed-files-yaml.outputs.doc_any_changed == 'true' }}
+        uses: DavidAnson/markdownlint-cli2-action@v12
+        with:
+          config: "./.github/lint/.markdownlint.yml"
+          globs: "**/*.md"
+      - name: YAML Lint Check
+        if: ${{ steps.changed-files-yaml.outputs.markdown_any_changed == 'true' }}
+        uses: frenck/action-yamllint@v1
+        with:
+          config: "./.github/lint/yamllint.yml"
