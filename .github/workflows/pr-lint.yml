@@ -19,11 +19,11 @@ jobs:
         with:
           files_yaml: |
             doc:
-              - '**/*.md'
+              - '**/**.md'
               - README.md
             markup:
-              - '**/*.yml'
-              - '**/*.yaml'
+              - '**/**.yml'
+              - '**/**.yaml'
       - name: Markdown Lint Check
         if: ${{ steps.changed-files-yaml.outputs.doc_any_changed == 'true' }}
         uses: DavidAnson/markdownlint-cli2-action@v12
