@@ -4,9 +4,8 @@
 
 ### Contact [Nicholas Drone](mailto:ndrone@gmail.com)
 
-## Blog posts
 
-
+## Blog
 
 <table>
         <tr>
@@ -33,22 +32,21 @@
 
 <div align="right">
 
-*Updated at: 2023-09-16T14:16:17Z - by **[huantt/article-listing](https://github.com/huantt/article-listing)***
+*Updated at: 2023-09-16T14:40:56Z - by **[huantt/article-listing](https://github.com/huantt/article-listing)***
 
 </div>
 
 
-
 ## Today's Weather
-
-
-
+<div align="center">
 
 `Cincinnati, United States of America - 15/09/2023`
 
 <img src="https://cdn.weatherapi.com/weather/64x64/day/116.png"/>
 
 Partly cloudy
+
+</div>
 
 
 <table>
@@ -75,10 +73,33 @@ Partly cloudy
 </table>
 
 
-<div align="right">
+## Weather For Next 7 days
 
-*Updated at: 2023-09-16T14:16:18Z - by **[huantt/weather-forecast](https://github.com/huantt/weather-forecast)***
 
-</div>
+<table>
+    <tr>
+        <th>Date</th>
+        <td>15/09/2023</td><td>16/09/2023</td><td>17/09/2023</td><td>18/09/2023</td><td>19/09/2023</td><td>20/09/2023</td><td>21/09/2023</td>
+    </tr>
+    <tr>
+        <th>Weather</th>
+        <td><img src="https://cdn.weatherapi.com/weather/64x64/day/116.png"/></td><td><img src="https://cdn.weatherapi.com/weather/64x64/day/176.png"/></td><td><img src="https://cdn.weatherapi.com/weather/64x64/day/116.png"/></td><td><img src="https://cdn.weatherapi.com/weather/64x64/day/113.png"/></td><td><img src="https://cdn.weatherapi.com/weather/64x64/day/113.png"/></td><td><img src="https://cdn.weatherapi.com/weather/64x64/day/113.png"/></td><td><img src="https://cdn.weatherapi.com/weather/64x64/day/116.png"/></td>
+    </tr>
+    <tr>
+        <th>Condition</th>
+        <td width="200px">Partly cloudy</td><td width="200px">Patchy rain possible</td><td width="200px">Partly cloudy</td><td width="200px">Sunny</td><td width="200px">Sunny</td><td width="200px">Sunny</td><td width="200px">Partly cloudy</td>
+    </tr>
+    <tr>
+        <th>Temperature</th>
+        <td>11.5 -  25.3 °C</td><td>13.9 -  25.4 °C</td><td>11.8 -  25.2 °C</td><td>12.9 -  27.8 °C</td><td>14.4 -  30.4 °C</td><td>16.7 -  29.8 °C</td><td>18.4 -  28.3 °C</td>
+    </tr>
+    <tr>
+        <th>Wind</th>
+        <td>7.6 kph</td><td>13.3 kph</td><td>7.6 kph</td><td>8.3 kph</td><td>8.6 kph</td><td>7.6 kph</td><td>10.1 kph</td>
+    </tr>
+</table>
+
+
+*Updated at: 2023-09-16T14:40:57Z*
 
 
