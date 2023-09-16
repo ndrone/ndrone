@@ -4,7 +4,6 @@
 
 ### Contact [Nicholas Drone](mailto:ndrone@gmail.com)
 
-## Blog posts
 <!-- markdownlint-disable -->
 
 {{ template "blog.md.tpl" }}

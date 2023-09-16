@@ -31,6 +31,9 @@ jobs:
           weather-api-key: ${{ secrets.WEATHER_API_KEY }}
           template-file: 'templates/weather.md.tpl'
           out-file: '.tmp/weather.md.tpl'
+      - run: |
+          cat .tmp/blog.md.tpl
+          cat .tmp/weather.md.tpl
       - name: Merge templates
         run: |
           go install github.com/huantt/merge-templates@v1.0.0
