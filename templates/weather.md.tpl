@@ -1,4 +1,4 @@
-## Today's Weather
+## Today's Forecast
 <div align="center">
 
 `{{ $.TodayWeather.City }}, {{$.TodayWeather.Country }} - {{ formatDate $.TodayWeather.StartTime $.TodayWeather.Timezone }}`
@@ -11,7 +11,7 @@
 
 {{template "hourly-table" $.TodayWeather.HourlyWeathers}}
 
-## Weather For Next {{ len .Weathers }} days
+## {{ len .Weathers }} Day Forecast
 
 {{template "daily-table" .Weathers}}
 
