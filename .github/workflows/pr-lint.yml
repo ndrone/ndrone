@@ -1,0 +1,30 @@
+---
+name: Lint Check
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  yamllint:
+    name: YAML Lint Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: YAML Lint Check
+        uses: frenck/action-yamllint@v1
+        with:
+          config: "./.github/lint/yamllint.yml"
+
+  markdownlint:
+    name: Markdown Lint Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Markdown Lint Check
+        uses: DavidAnson/markdownlint-cli2-action@v12
+        with:
+          config: "./.github/lint/.markdownlint.yml"
+          globs: "**/*.md"
