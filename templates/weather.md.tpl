@@ -1,4 +1,3 @@
-<!-- markdownlint-disable -->
 {{ with $todayWeather := index .Weathers 0 }}
 
 `{{ $todayWeather.City }}, {{$todayWeather.Country }} - {{ formatDate $todayWeather.StartTime $todayWeather.Timezone }}`
@@ -16,4 +15,3 @@
 *Updated at: {{formatTime .UpdatedAt}} - by **[huantt/weather-forecast](https://github.com/huantt/weather-forecast)***
 
 </div>
-<!-- markdownlint-enable -->
