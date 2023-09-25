@@ -21,7 +21,7 @@ jobs:
         run: |
           export PATH=$PATH:$(go env GOPATH)/bin
           mkdir .tmp
-      - uses: huantt/article-listing@v1.2.0
+      - uses: huantt/article-listing@v1.3.0
         with:
           username: ndrone
           template-file: "templates/blog.md.tpl"
