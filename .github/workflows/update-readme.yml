@@ -27,7 +27,7 @@ jobs:
           template-file: "templates/blog.md.tpl"
           out-file: ".tmp/blog.md.tpl"
           limit: 5
-      - uses: huantt/weather-forecast@v1.0.5
+      - uses: huantt/weather-forecast@v1.0.6
         with:
           city: Cincinnati
           days: 7
