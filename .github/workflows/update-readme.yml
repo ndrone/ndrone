@@ -3,9 +3,6 @@ name: Updates README
 on:
   schedule:
     - cron: '0 */6 * * *'
-  push:
-    branches:
-      - 'main'
   workflow_dispatch:
 
 jobs:
