@@ -7,7 +7,14 @@
   "author": "Nicholas Drone <ndrone@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "preinstall": "rimraf xterm/",
+    "postinstall": "mkdir xterm; cp ./node_modules/xterm/css/xterm.css ./xterm/; cp ./node_modules/xterm/lib/xterm.js ./xterm/"
+  },
   "dependencies": {
     "xterm": "^5.3.0"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5"
   }
 }
