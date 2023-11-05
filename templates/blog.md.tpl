@@ -1,3 +1,4 @@
+## Blog
 {{ template "article-table" .Articles }}
 
 <div align="right">
