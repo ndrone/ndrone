@@ -36,7 +36,7 @@ jobs:
           go install github.com/huantt/merge-templates@v1.0.0
           merge-templates README.md 'templates/README.md.tpl' '.tmp/blog.md.tpl' '.tmp/weather.md.tpl'
       - run: rm -rf .tmp
-      - uses: peter-evans/create-pull-request@v5
+      - uses: peter-evans/create-pull-request@v6
         with:
           commit-message: "Updates README with blog and weather"
           title: "Updates README with blog and weather"
