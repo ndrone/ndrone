@@ -14,7 +14,7 @@ jobs:
     name: YAML Lint Check
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: YAML Lint Check
         uses: frenck/action-yamllint@v1
         with:
